@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Grandstander', cursive;
+}
+html{
+    font-size: 62.5%;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 25vw;
+    height: 60vh;
+    background-color: white;
+    color: lightgray;
+    border-radius: .5rem;
+    box-shadow: .3rem .3rem 20px -3px #e0ece4;
+
+}
+.main h3{
+    font-size: 3rem;
+    color: black;
+    margin-top: 3rem;
+    padding: 1rem auto;
+    text-align: center;
+    height: 5rem;
+    width: 100%;
+    line-height: 5rem;
+    background-color: purple;
+    box-shadow: 0 0 20px -3px black;
+}
+.main input{
+    width: 70%;
+    height: 4rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid purple;
+    padding: 1rem auto;
+    margin: 0;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    background-color: transparent;
+    color: black;
+    outline: none;
+
+}
+.main input:active{
+    border: none;
+}
+.main button{
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    padding: auto;
+    line-height: 2rem;
+    color:white;
+    background-color: purple;
+    border: none;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    box-shadow: .3rem .3rem 20px -3px rgba(0,0,0,.4);
+    transition: background-color .5s;
+    outline:none;
+}
+.main ul {
+    width: 100%;
+    height:auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main ul li{
+    list-style: none;
+    font-size: 2.5rem;
+    width: 80%;
+    height:4rem;
+    line-height: 4rem;
+    vertical-align: middle;
+    margin: .3rem 0;
+    background-color: transparent;
+    color: black;
+    transition: color .3s;
+}
+.main ul li button{
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding-top: .5rem;
+    margin-right: 2rem;
+    margin-top: 0;
+    transform: rotate(5deg);
+    background-color:transparent;
+    color: black;
+    transition: box-shadow transform background-color .6s;
+    box-shadow: .3rem .3rem 10px -3px rgba(0,0,0,.4),-.3rem -.3rem 10px -3px rgba(1,1,1,.4);
+    border:none;
+
+}
+.main ul li button:hover{
+    background-color: transparent;
+    color: red;
+    border: 1px solid lightgray;
+    transform: scale(-2px);
+    box-shadow: inset .3rem .3rem 10px -3px rgba(0,0,0,.4),inset -.3rem -.3rem 10px -3px rgba(1,1,1,.4);
+}
+.main ul li:hover{
+    color: lightgray;
+}
+.main button:hover{
+    box-shadow: inset .3rem .3rem 10px -3px rgba(0,0,0,.4),inset -.3rem -.3rem 10px -3px rgba(1,1,1,.4);
+    background-color: #81b214;
+    border: 1px solid lightgray;
+}
